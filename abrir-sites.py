@@ -7,8 +7,8 @@ time.sleep(5)
 
 try:
     notification.notify(
-        title="Bom dia, Tiago!",
-        message="Lembrete: Daily às 11h15 com o time de Mobile. 🚀",
+        title="Bom dia, (seu nome)!",
+        message="Lembrete: Daily às (horario) com o time de (time da Daily). 🚀",
         timeout=10
     )
 except Exception as e:
@@ -17,7 +17,7 @@ except Exception as e:
 # Abrir os sites principais
 webbrowser.open("https://mail.google.com/mail/u/0/?ogbl#inbox")
 webbrowser.open("https://calendar.google.com/calendar/u/0/r")
-webbrowser.open("https://nectar.myjetbrains.com/youtrack/dashboard?id=539-104")
+webbrowser.open("https://(url do youtrack ou outra plataforma)")
 
 # Abrir o app PWA do Google Chat
-os.startfile("C:\\Users\\nectar\\Desktop\\Google Chat.lnk")
+os.startfile("C:\\Desktop\\Google Chat.lnk")
