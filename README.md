@@ -44,7 +44,7 @@ Certifique-se de que o Python esteja instalado e acessível no caminho, por exem
 
 Abra o terminal e execute:
 
-```bash
+```
 pip install plyer
 ```
 
@@ -53,7 +53,7 @@ pip install plyer
 ### 🔹 Passo 1: Criar um atalho
 
 Crie um atalho com o seguinte comando (ajuste o caminho conforme necessário):
-```bash
+```
 "C:\Python313\pythonw.exe" "C:\Scripts\abrir-sites.py"
 ```
 
